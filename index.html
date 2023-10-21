@@ -1,325 +1,712 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js vlt-is--homepage vlt-is--footer-fixed" lang="en">
 
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Nguyen Le</title>
-    <meta property="og:type" content="website" />
-    <meta content="summary_large_image" name="twitter:card" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <meta content="Webflow" name="generator" />
-    <link href="uploads/5ff211b17095aa7b6582b8cb/css/nguyenle.webflow.527288d2f.css" rel="stylesheet" type="text/css" />
-    <script src="ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
-    <script type="text/javascript">
-        WebFont.load({
-            google: {
-                families: ["Zilla Slab:regular,500,500italic", "DM Sans:regular,500,500italic,700,700italic", "Caveat:regular"]
-            }
-        });
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--Favicon-->
+    <link rel="icon" type="image/svg" href="assets/img/root/favicon.svg">
+    <!--Framework-->
+    <link rel="stylesheet" href="assets/css/framework/bootstrap.min.css">
+    <!--Fonts-->
+    <link rel="stylesheet" href="assets/fonts/Gilroy/style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="assets/fonts/LineIcons/Pro-Regular/font-css/LineIcons.css">
+    <!--Plugins-->
+    <link rel="stylesheet" href="assets/css/vlt-plugins.min.css">
+    <!--Style-->
+    <link rel="stylesheet" href="assets/css/vlt-main.min.css">
+    <!--Custom-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115117832-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-115117832-1');
     </script>
-    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
-    <script type="text/javascript">
-        ! function(o, c) {
-            var n = c.documentElement,
-                t = " w-mod-";
-            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
-        }(window, document);
-    </script>
-    <link href="uploads/5ff211b17095aa7b6582b8cb/5ff39b3ce29e0e3d14649aef_1500x500%20copy.jpg" rel="shortcut icon" type="image/x-icon" />
-    <link href="uploads/5ff211b17095aa7b6582b8cb/5ff211b17095aa871682ba90_favicon-large.png" rel="apple-touch-icon" />
+
     <style>
-        body {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+        @media screen and (max-width: 660px) {
+            iframe {
+                display: none;
+            }
         }
     </style>
+
 </head>
 
-<body>
-    <div id="top" class="back-to-top-container">
-        <div class="back-to-top-button-wrapper"><a href="#top" class="button-circle bg-primary-1 w-inline-block"><img src="uploads/5ff211b17095aa7b6582b8cb/5ff211b17095aa5c3182b948_icon-chevron-up.svg" alt=""/></a></div>
-    </div>
-    <div class="navbar-sticky bg-white">
-        <div class="navigation-container">
-            <div class="container nav-bar">
-                <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar about w-nav">
-                    <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
-                        <div class="row no-wrap"><a href="#about" class="nav-link w-nav-link">Bio</a><a href="#experience" class="nav-link w-nav-link">Experience</a><a href="#projects" class="nav-link w-nav-link">Projects</a><a href="#ideas" class="nav-link w-nav-link">Awards</a><a href="#papers" class="nav-link w-nav-link">Publications</a></div>
-                        <div
-                            data-delay="0" data-hover="false" class="nav-dropdown w-dropdown">
-                            <div class="nav-link w-dropdown-toggle"></div>
-                            <nav class="dropdown-list w-dropdown-list">
-                                <div class="dropdown-menu"></div>
-                            </nav>
+<body class=" animsition">
+    <!--Header-->
+    <header class="vlt-header vlt-header--default">
+        <div class="vlt-navbar vlt-navbar--main vlt-navbar--transparent vlt-navbar--sticky">
+            <div class="vlt-navbar-background"></div>
+            <div class="vlt-navbar-inner">
+                <div class="vlt-navbar-inner--left">
+                    <!--Logo--><h4><a class="vlt-navbar-logo" href="index.html">Nguyen Le</a></h4>
                 </div>
-                </nav>
-                <div class="nav-menu-button-wrapper">
-                    <div class="nav-functions">
-                        <div class="modal-container">
-                            <div class="modal-button-wrapper">
-                                <div class="button bg-white search-button">
-                                    <div class="row"></div>
+                <div class="vlt-navbar-inner--center">
+                    <div class="container">
+                        <nav class="vlt-default-menu__navigation">
+                            <!--Navigation-->
+                            <ul class="sf-menu">
+                                <li data-menuanchor="Home"><a href="#Home">Home</a>
+                                </li>
+                                <li data-menuanchor="About"><a href="#About">About</a>
+                                </li>
+                                <li data-menuanchor="Testimonials"><a href="#Experience">Experience</a>
+                                </li>
+                                <li data-menuanchor="Projects"><a href="#Projects">Projects</a>
+                                </li>
+                                <li data-menuanchor="Contact"><a href="#Contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="vlt-navbar-inner--right">
+                    <div class="d-flex align-items-center">
+                        <!--Contacts-->
+                        <div class="vlt-navbar-contacts"><a href="mailto:nguyenle@bu.edu">nguyenle@bu.edu</a></div>
+                        <!--Menu Burger--><a class="vlt-menu-burger js-offcanvas-menu-open" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="round">
+								<line x1="3" y1="12" x2="21" y2="12" />
+								<line x1="3" y1="6" x2="21" y2="6" />
+								<line x1="3" y1="18" x2="21" y2="18" /></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Offcanvas Menu-->
+    <div class="vlt-offcanvas-menu">
+        <div class="vlt-offcanvas-menu__header">
+            <!--Menu Burger--><a class="vlt-menu-burger vlt-menu-burger--opened js-offcanvas-menu-close" href="#"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24">
+					<defs />
+					<path d="M18 6L6 18M6 6l12 12" /></svg></a>
+        </div>
+        <nav class="vlt-offcanvas-menu__navigation">
+            <!--Navigation-->
+            <ul class="sf-menu">
+                <li data-menuanchor="Home"><a href="#Home">Home</a>
+                </li>
+                <li data-menuanchor="About"><a href="#About">About</a>
+                </li>
+                <li data-menuanchor="Testimonials"><a href="#Experience">Experience</a>
+                </li>
+                <li data-menuanchor="Projects"><a href="#Projects">Projects</a>
+                </li>
+                <li data-menuanchor="Contact"><a href="#Contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="vlt-offcanvas-menu__footer">
+            <!--Socials-->
+            <div class="vlt-offcanvas-menu__socials">
+                
+                <!--GitHub-->
+                <a class="vlt-social-icon vlt-social-icon--style-1" href="https://github.com/FilipLe" target="_blank"><img src="assets/img/github.png"></a>
+                
+                <!--LinkedIn-->
+                <a class="vlt-social-icon vlt-social-icon--style-1" href="https://www.linkedin.com/in/nguyenle04/" target="_blank">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 29 29" style="enable-background:new 0 0 29 29;" xml:space="preserve">
+                        <style type="text/css">
+                            .st0{fill:#FFFFFF;}
+                        </style>
+                        <g>
+                            <path class="st0" d="M15.6,13.3c0.4-0.4,0.8-0.8,1.2-1.1c0.7-0.6,1.6-0.7,2.5-0.8c1.2-0.1,2.4-0.1,3.5,0.5c1.2,0.6,1.9,1.4,2.4,2.7
+                                c0.4,1,0.6,2.2,0.6,3.4c0.1,2.8,0.1,5.6,0.1,8.4c0,0.6-0.3,1-1,1c-1.1,0-2.2,0-3.3,0c-0.6,0-0.9-0.3-0.9-0.9c0-2.4,0-4.8,0-7.2
+                                c0-0.6-0.1-1.1-0.2-1.7c-0.2-1-1-1.7-2-1.8c-1.1-0.1-2,0.4-2.5,1.4c-0.3,0.7-0.5,1.4-0.5,2.2c0,2.3,0,4.7,0,7.1c0,0.6-0.3,1-1,1
+                                c-1,0-2.1,0-3.1,0c-0.6,0-1-0.3-1-0.9c0-4.6,0-9.3,0-13.8c0-0.6,0.3-0.9,0.9-0.9c1,0,2.2,0,3.2,0c0.6,0,0.9,0.3,0.9,0.9
+                                C15.6,12.7,15.6,13,15.6,13.3z"/>
+                            <path class="st0" d="M3.5,19.4c0-2.3,0-4.6,0-6.8c0-0.6,0.3-1,1-1c1,0,2.1,0,3.1,0c0.6,0,0.9,0.3,0.9,0.9c0,0.1,0,0.2,0,0.2
+                                c0,4.5,0,8.9,0,13.4c0,0.8-0.3,1.1-1.1,1.1c-1,0-1.9,0-2.9,0c-0.6,0-1-0.3-1-1C3.5,24,3.5,21.6,3.5,19.4z"/>
+                            <path class="st0" d="M9.3,7.1c0,1.8-1.4,3.2-3.2,3.2S2.8,8.9,2.8,7.1c0-1.8,1.4-3.2,3.2-3.2S9.3,5.3,9.3,7.1z"/>
+                        </g>
+                    </svg>
+                </a>
+
+                <!--Instagram-->
+                <a class="vlt-social-icon vlt-social-icon--style-1" href="https://www.instagram.com/dailydose.of.python/" target="_blank"><img src="assets/img/instagram.png"></a></div>
+
+            <!--Copyright-->
+            <div class="vlt-offcanvas-menu__copyright">
+                <p>© 2023 Copyright.<br>All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!--Site Overlay-->
+    <div class="vlt-site-overlay"></div>
+    <!--Fixed socials-->
+    <div class="vlt-fixed-socials">
+        <!--GitHub-->
+        <a class="vlt-social-icon vlt-social-icon--style-1" href="https://github.com/FilipLe" target="_blank"><img src="assets/img/github.png"></a>
+        
+        <!--LinkedIn-->
+        <a class="vlt-social-icon vlt-social-icon--style-1" href="https://www.linkedin.com/in/nguyenle04/" target="_blank">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 29 29" style="enable-background:new 0 0 29 29;" xml:space="preserve">
+                <style type="text/css">
+                    .st0{fill:#FFFFFF;}
+                </style>
+                <g>
+                    <path class="st0" d="M15.6,13.3c0.4-0.4,0.8-0.8,1.2-1.1c0.7-0.6,1.6-0.7,2.5-0.8c1.2-0.1,2.4-0.1,3.5,0.5c1.2,0.6,1.9,1.4,2.4,2.7
+                        c0.4,1,0.6,2.2,0.6,3.4c0.1,2.8,0.1,5.6,0.1,8.4c0,0.6-0.3,1-1,1c-1.1,0-2.2,0-3.3,0c-0.6,0-0.9-0.3-0.9-0.9c0-2.4,0-4.8,0-7.2
+                        c0-0.6-0.1-1.1-0.2-1.7c-0.2-1-1-1.7-2-1.8c-1.1-0.1-2,0.4-2.5,1.4c-0.3,0.7-0.5,1.4-0.5,2.2c0,2.3,0,4.7,0,7.1c0,0.6-0.3,1-1,1
+                        c-1,0-2.1,0-3.1,0c-0.6,0-1-0.3-1-0.9c0-4.6,0-9.3,0-13.8c0-0.6,0.3-0.9,0.9-0.9c1,0,2.2,0,3.2,0c0.6,0,0.9,0.3,0.9,0.9
+                        C15.6,12.7,15.6,13,15.6,13.3z"/>
+                    <path class="st0" d="M3.5,19.4c0-2.3,0-4.6,0-6.8c0-0.6,0.3-1,1-1c1,0,2.1,0,3.1,0c0.6,0,0.9,0.3,0.9,0.9c0,0.1,0,0.2,0,0.2
+                        c0,4.5,0,8.9,0,13.4c0,0.8-0.3,1.1-1.1,1.1c-1,0-1.9,0-2.9,0c-0.6,0-1-0.3-1-1C3.5,24,3.5,21.6,3.5,19.4z"/>
+                    <path class="st0" d="M9.3,7.1c0,1.8-1.4,3.2-3.2,3.2S2.8,8.9,2.8,7.1c0-1.8,1.4-3.2,3.2-3.2S9.3,5.3,9.3,7.1z"/>
+                </g>
+            </svg>
+        </a>
+
+        <!--Instagram-->
+        <a class="vlt-social-icon vlt-social-icon--style-1" href="https://www.instagram.com/dailydose.of.python/" target="_blank"><img src="assets/img/instagram.png"></a></div>
+    
+    <!--Main-->
+    <main class="vlt-main">
+        <!--Fullpage Slider-->
+        <div class="vlt-fullpage-slider" data-loop-top="" data-loop-bottom="" data-speed="450">
+            <!--Home-->
+            <!--Section-->
+            <div class="vlt-section pp-scrollable" data-anchor="Home">
+                <div style="z-index: 2;" class="vlt-section__vertical-align">
+                    <div class="vlt-section__content">
+                        <!--Ken Burn Effect-->
+                        <div class="vlt-section__ken-burn-background has-mobile-image"><img src="assets/img/particles.gif" alt=""><img src="assets/img/particles.gif" alt=""></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="vlt-gap-120"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
+                                    </div>
+                                    <div class="vlt-gap-100"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;"><span class="vlt-display-1 has-white-color">Computer Science & Trustee Honors @ Boston University</span>
+                                    </div>
+                                    <div class="vlt-gap-15"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.2s; animation-duration:700ms;">
+                                        <h1 class="vlt-large-heading tracking-in-contract-bck">Nguyen Le<span class="has-accent-color">.</span></h1>
+                                    </div>
+                                    <div class="vlt-gap-15"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
+                                        <p> Trustee Scholars Program / B.A. Computer Science / Business Administration & Management Minor</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <iframe style="width: 100%; height: 100%; position: absolute; left: 0; pointer-events: none; z-index: 1; border: 0;" src="webgl_shadowmap_pointlight.html"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--About-->
+            <!--Section-->
+            <div class="vlt-section pp-scrollable" data-anchor="About">
+                <div class="vlt-section__vertical-align">
+                    <div class="vlt-section__content">
+                        <div class="vlt-section__ken-burn-background has-mobile-image"><img src="assets/img/cool.jpeg" alt=""><img src="assets/img/cool.jpeg" alt=""></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-6">
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
+                                        <div class="vlt-experience-block">
+                                            <img src="assets/img/nguyenle.PNG" style="margin:auto" class="vlt-experience-profile">
+                                        </div>
+                                    </div>
+                                    <div class="vlt-gap-100--lg"></div>
+                                </div>
+                                <div class="col-xl-6 col-md-8">
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
+                                        <h3>About Me</h3>
+                                    </div>
+                                    <div class="vlt-gap-45"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.2s; animation-duration:700ms;">
+                                        <p>I am currently one of the 20 Trustee Scholars at Boston University and am pursuing a B.A. in Computer Science at Boston University in Massachusetts, United States.</p>
+                                    </div>
+                                    <div class="vlt-gap-70"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
+                                        <!--Progress Bar-->
+                                        <div class="vlt-progress-bar" data-final-value="50" data-animation-speed="1000">
+                                            <h5 class="vlt-progress-bar__title">PYTHON<span class="counter">0</span>
+                                            </h5>
+                                            <div class="vlt-progress-bar__bar"><span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="vlt-gap-70"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.4s; animation-duration:700ms;">
+                                        <!--Progress Bar-->
+                                        <div class="vlt-progress-bar" data-final-value="50" data-animation-speed="1000">
+                                            <h5 class="vlt-progress-bar__title">JAVA<span class="counter">0</span>
+                                            </h5>
+                                            <div class="vlt-progress-bar__bar"><span></span></div>
+                                        </div>
+                                    </div>
+                                    <div class="vlt-gap-70"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.5s; animation-duration:700ms;">
+                                        <!--Progress Bar-->
+                                        <div class="vlt-progress-bar" data-final-value="15" data-animation-speed="1000">
+                                            <h5 class="vlt-progress-bar__title">TYPESCRIPT<span class="counter">0</span>
+                                            </h5>
+                                            <div class="vlt-progress-bar__bar"><span></span></div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="modal">
-                                <div class="modal-contents">
-                                    <form action="/search" class="modal-search-form w-form"><img src="uploads/5ff211b17095aa7b6582b8cb/5ff211b17095aad77982b939_icon-search.svg" alt="" class="form-input-icon" /><input type="search" class="form-input form-input-naked w-input" autofocus="true"
-                                            maxlength="256" name="query" placeholder="Type your search" id="search-2" required="" /><input type="submit" value="Search" class="button form-search-button w-button" /></form>
-                                </div>
-                            </div>
-                            <div data-w-id="57a97d93-8c1f-d5ed-61f5-9c8e1637bd8e" class="modal-screen"></div>
                         </div>
                     </div>
-                    <div class="menu-button w-nav-button"><img src="uploads/5ff211b17095aa7b6582b8cb/5ff211b17095aa277182b928_icon-menu.svg" alt="" class="menu-icon" /></div>
                 </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="section bg-primary-2 wf-section"><img src="uploads/5ff211b17095aa7b6582b8cb/particles.gif" loading="lazy" srcset="uploads/5ff211b17095aa7b6582b8cb/particles.gif 500w, uploads/5ff211b17095aa7b6582b8cb/particles.gif 800w, uploads/5ff211b17095aa7b6582b8cb/particles.gif 1500w"
-            sizes="100vw" alt="" class="image-9" height="450"/></div>
-    <div id="about" class="section-22 wf-section"></div>
-    <div class="section bg-primary-3 container-1 intro wf-section"></div>
-    <h6 class="subheading text-primary-1 testimonials _2 copy clients">NGUYEN&#x27;S BIO</h6>
-    <h3 class="medium-heading home _2 landscape second-pane">About Nguyen Le.</h3>
-    <section id="feature-section" class="feature-section-2 wf-section">
-        <div class="flex-container-2 w-container">
-            <div class="feature-image-mask-2"><img src="uploads/5ff211b17095aa7b6582b8cb/nguyenle.PNG" srcset="uploads/5ff211b17095aa7b6582b8cb/nguyenle.PNG 500w, uploads/5ff211b17095aa7b6582b8cb/nguyenle.PNG 800w, uploads/5ff211b17095aa7b6582b8cb/nguyenle.PNG 1080w, uploads/5ff211b17095aa7b6582b8cb/nguyenle.PNG 1580w"
-                    sizes="(max-width: 479px) 34vw, (max-width: 767px) 36vw, (max-width: 991px) 14vw, (max-width: 1919px) 18vw, 63vw" alt="" class="feature-image-2" /></div>
-            <div>
-                <p class="paragraph-7"><a href="https://www.linkedin.com/in/nguyenle04/" target="_blank"><span class="text-span-25">Nguyen Le</span></a> is currently one of the 20 <a href="https://www.bu.edu/provost/students/undergraduate/trustee-scholars-program/" target="_blank" class="link-35"><em>Trustee Scholars</em></a> at Boston University and is pursuing a B.A. in Computer Science at Boston University in Massachusetts, United States. He’s an aspiring mathematician and computer scientist, where he pursued many projects and activities to explore his passion. <br/>
-                    <br/>One of the first projects he pursued was a <em>lab equipment management system app</em> to assist his school’s lab technician to manage school inventory. He also designed a <em>medicine managing app</em> to help his grandmother keep track of her medicine intake and inventory, created a <em>Weather/SMS Alert program</em> that sends personalised SMS alerts to inform users of weather conditions and suggest them suitable wear, and <em>a Machine Learning KNN and Decision Tree models to predict housing prices.</em><br/>
-                    <br/>In addition to that, he has also produced a series of <a href ="https://www.instagram.com/dailydose.of.python/" target="_blank"><span class="text-span-25">Python tutorials</span></a>, which are published to over 4000 people on <a href ="https://www.instagram.com/dailydose.of.python/" target="_blank"><span class="text-span-25">Instagram</span></a>. Nguyen also competed in international math contest such as ISMTF and IKMC, achieving up to 3<sup>rd</sup> place amongst roughly 300 people.<br/>
-                    <br/>He is an avid learner, but also a community-oriented individual, where he has worked with NGOs such as NAE UNICEF and World Vision to act as a voice for vulnerable children around the world.<br/>
-                    <br/>He has the vision of using technology in the pursuit of bringing people together and the vision of furthering his understanding of computers and how to utilize these powerful tools. Through technology, he hopes to unite people to complement each other and make our planet a better place.
-            </div>
-        </div>
-    </section>
-    <div id="experience" class="section-25 wf-section">
-        <h6 class="subheading text-primary-1 testimonials _2 copy clients">CURRENT EDUCATION</h6><img src="uploads/5ff211b17095aa7b6582b8cb/BostonUniversity.png" loading="lazy" width="190" height="90" sizes="100vw" srcset="uploads/5ff211b17095aa7b6582b8cb/BostonUniversity.png 500w, uploads/5ff211b17095aa7b6582b8cb/BostonUniversity.png 942w"
-            alt="" class="image-10" />
-        <div class="container-16 nskhomepage w-container"></div>
-    </div>
-    <div id="experience" class="section-26 wf-section">
-        <h6 class="subheading text-primary-1 testimonials _2 copy clients">EXPERIENCE</h6>
-        <div class="columns why-formidable w-row">
-            <div class="column-9 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">jK Technologies Corp - AR / VR</h6>
-                    <h6 class="h6-small">Back-End Developer Intern</h6>
-                    <div class="text-block-8">blah</div>
-                </div>
+                <iframe style="width: 100%; height: 100%; position: absolute; z-index: 1; border: 0;" class="fluids_back" src="webgl_marchingcubes.html"></iframe>
             </div>
 
-            <div class="column-6 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">Department of Computer Science</h6>
-                    <h6 class="h6-small">Course Assistant</h6>
-                    <div class="text-block-8"> Boston University Department of Computer Science, Course Assistant for Computer Science 1</div>
-                </div>
-            </div>
+            <!--Experience-->
+            <!--Section-->
+            <div class="vlt-section pp-scrollable" data-anchor="Experience">
+			    <div class="vlt-section__vertical-align">
+			        <div class="vlt-section__content">
+                        <div class="vlt-section__ken-burn-background has-mobile-image"><img src="assets/img/tech.jpeg" alt=""><img src="assets/img/tech.jpeg" alt=""></div>
+			            <div class="container">
+			                <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
+			                    <h3>Experience</h3>
+			                </div>
 
-            <div class="column-6 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2 r2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">BostonHacks</h6>
-                    <h6 class="h6-small">Organizer</h6>
-                    <div class="text-block-9"> blah </div>
-                </div>
-            </div>
-            
-        </div>
-        <div class="columns why-formidable secondrow w-row">
+                            <!--Carousel-->
+			                <div class="row">
 
-            <div class="column-9 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">Student Government</h6>
-                    <h6 class="h6-small">Student Affairs Committee</h6>
-                    <div class="text-block-8">Serve in Boston University College of Arts & Science Student Government.</div>
-                </div>
-            </div>
-            
-            <div class="column-6 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2 r2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">International Student Ambassadors</h6>
-                    <h6 class="h6-small">Coordinator</h6>
-                    <div class="text-block-9"> Board of International Student Ambassadors, Boston University Admissions </div>
-                </div>
-            </div>
+			                    <div class="col-xl-4">
+			                        <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
+			                            <article class="vlt-post vlt-post--masonry">
+			                                <div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
+			                                <div class="vlt-post-content">
+			                                    <header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+			                                        <h3 class="vlt-post-title"><a href="">jK Technologies Corp - AR / VR Solution</a></h3>
+			                                    </header>
+                                                <div>
+                                                    <a class="vlt-read-more-link" href="">
+			                                            Back-End Developer Intern
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                </div>
+			                                    <div class="vlt-post-excerpt">
+			                                        <p>
+                                                        User Data Management & Analytics
+                                                        <br><br>Back-end: 
+                                                        <br>• User entities, DTOs, use cases, controllers
+                                                        <br>• RESTful API using NestJS
+                                                        <br><br>Front-end:
+                                                        <br>• AngularJS
+			                                        </p>
+			                                    </div>
+			                                    
+			                                </div>
+			                            </article>
+			                        </div>
+			                    </div>
 
-            <div class="column-6 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2 r2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">Nord Anglia UNICEF</h6>
-                    <h6 class="h6-small">Student Social Impact Lead</h6>
-                    <div class="text-block-9"> blah </div>
-                </div>
-            </div>
+			                    <div class="col-xl-4">
+			                        <div class="vlt-gap-30--lg"></div>
+			                        <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.2s; animation-duration:700ms;">
+			                            <article class="vlt-post vlt-post--masonry">
+			                                <div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
+			                                <div class="vlt-post-content">
+			                                    <header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+			                                        <h3 class="vlt-post-title"><a href="">Boston University Department of Computer Science</a></h3>
+			                                    </header>
+                                                <div>
+                                                    <a class="vlt-read-more-link" href="">
+			                                            Course Assistant for Computer Science I
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                </div>
+			                                    <div class="vlt-post-excerpt">
+			                                        <p>
+                                                        blah <br>
+                                                        Blah <br>
+                                                        blah
+			                                        </p>
+			                                    </div>
+			                            </article>
+			                        </div>
+			                    </div>
 
-            <div class="column-6 w-col w-col-3">
-                <div class="centered-grid-item-2">
-                    <div class="circle bg-primary-2 r2"></div>
-                    <h6 class="h6-small-2 why-formidable" style="margin: auto">World Vision International</h6>
-                    <h6 class="h6-small">Child Sponsorship</h6>
-                    <div class="text-block-9"> blah </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    <div id="projects" class="section-23 wf-section">
-        <div class="container-11 workhistory w-container">
-            <div class="section-title">
-                <h6 class="subheading text-primary-1 workhistory">PROJECTS</h6>
-            </div>
-            <div class="padded-grid-item border-bottom-white-thick">
-                <div class="centered-grid-item"><img src="uploads/5ff211b17095aa7b6582b8cb/dailydoseofpython.jpg" alt="" width = "15%" height = "15%"/>
-                    <h6 class="h6-small">Founder & Content Creator</h6>
-                    <div class="text-block-38">I started <a href="https://www.instagram.com/dailydose.of.python/" target="_blank" class="link-36">Daily Dose of Python</a> 
-                        in December 2020 not only to share my programming knowledge and help provide aspiring minds a path to follow so that they can grow and develop their computational skills, but also to 
-                        provide them a sense of direction so that together we can utilize these powerful technological tools available out there to contribute to the community and make changes to humanity as a 
-                        whole. With the right guidance and training, I believe we could bring greater impacts to our worlds.  As I put my ideas into action, my account quickly gained popularity, and I managed 
-                        to reach over 4000 followers all over from Asia, Europe, Africa, North and South America. 
+			                    <div class="col-xl-4">
+			                        <div class="vlt-gap-30--lg"></div>
+			                        <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
+			                            <article class="vlt-post vlt-post--masonry">
+			                                <div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
+			                                <div class="vlt-post-content">
+			                                    <header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+			                                        <h3 class="vlt-post-title"><a href="">BostonHacks</a></h3>
+			                                    </header>
+                                                <div>
+                                                    <a class="vlt-read-more-link" href="">
+			                                            Organizer
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                </div>
+			                                    <div class="vlt-post-excerpt">
+			                                        <p>
+                                                        blah <br>
+                                                        Blah <br>
+                                                        blah
+			                                        </p>
+			                                    </div>
+			                            </article>
+			                        </div>
+			                    </div>
+
+                                <div class="col-xl-4">
+			                        <div class="vlt-gap-30--lg"></div>
+			                        <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
+			                            <article class="vlt-post vlt-post--masonry">
+			                                <div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
+			                                <div class="vlt-post-content">
+			                                    <header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+			                                        <h3 class="vlt-post-title"><a href="">Boston University College of Arts & Science Student Government</a></h3>
+			                                    </header>
+                                                <div>
+                                                    <a class="vlt-read-more-link" href="">
+			                                            Student Affairs Committee
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                </div>
+			                                    <div class="vlt-post-excerpt">
+			                                        <p>
+                                                        blah <br>
+                                                        Blah <br>
+                                                        blah
+			                                        </p>
+			                                    </div>
+			                            </article>
+			                        </div>
+			                    </div>
+
+                                <div class="col-xl-4">
+			                        <div class="vlt-gap-30--lg"></div>
+			                        <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
+			                            <article class="vlt-post vlt-post--masonry">
+			                                <div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
+			                                <div class="vlt-post-content">
+			                                    <header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+			                                        <h3 class="vlt-post-title"><a href="">Board of International Student Ambassadors</a></h3>
+			                                    </header>
+                                                <div>
+                                                    <a class="vlt-read-more-link" href="">
+			                                            Coordinator
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                </div>
+			                                    <div class="vlt-post-excerpt">
+			                                        <p>
+                                                        blah <br>
+                                                        Blah <br>
+                                                        blah
+			                                        </p>
+			                                    </div>
+			                            </article>
+			                        </div>
+			                    </div>
+
+                                <div class="col-xl-4">
+			                        <div class="vlt-gap-30--lg"></div>
+			                        <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.3s; animation-duration:700ms;">
+			                            <article class="vlt-post vlt-post--masonry">
+			                                <div class="vlt-post-border"><span class="top"></span><span class="right"></span><span class="bottom"></span><span class="left"></span></div>
+			                                <div class="vlt-post-content">
+			                                    <header class="vlt-post-header"><span class="vlt-post-date">December 27, 2020</span>
+			                                        <h3 class="vlt-post-title"><a href="">World Vision International</a></h3>
+			                                    </header>
+                                                <div>
+                                                    <a class="vlt-read-more-link" href="">
+			                                            Child Sponsorship
+                                                    </a>
+                                                </div>
+                                                <div>
+                                                    <br>
+                                                </div>
+			                                    <div class="vlt-post-excerpt">
+			                                        <p>
+                                                        blah <br>
+                                                        Blah <br>
+                                                        blah
+			                                        </p>
+			                                    </div>
+			                            </article>
+			                        </div>
+			                    </div>
+
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+
+            <!--Projects-->
+            <!--Section-->
+            <div class="vlt-section pp-scrollable" data-anchor="Projects">
+                <div class="vlt-section__vertical-align">
+                    <div class="vlt-section__content">
+                        <!--Ken Burn Effect-->
+                        <div class="vlt-section__ken-burn-background"><img src="assets/img/techy.webp" alt=""></div>
+                        <div class="container">
+                            <div class="row align-items-end">
+                                <div class="col-xl-6">
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
+                                        <div class="has-accent-color"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 75 75">
+												<defs />
+												<path fill="currentColor" d="M25 0C16.9271 0 10.7422 2.14844 6.44531 6.44531 2.14844 10.7422 0 16.9271 0 25v50h31.25V25H12.5c0-4.4271.9766-7.6172 2.9297-9.5703C17.3828 13.4766 20.5729 12.5 25 12.5V0zm43.75 0c-8.0729 0-14.2578 2.14844-18.5547 6.44531C45.8984 10.7422 43.75 16.9271 43.75 25v50H75V25H56.25c0-4.4271.9766-7.6172 2.9297-9.5703C61.1328 13.4766 64.3229 12.5 68.75 12.5V0z" /></svg>
+                                            <div class="vlt-gap-160 vlt-gap-100--lg"></div>
+                                            <h3>Let my experiences reflect my abilities.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-md-6 offset-xl-2">
+                                    <div class="vlt-gap-70--lg"></div>
+                                    
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
+                                        
+                                        <!--Content slider-->
+                                        <div class="vlt-content-slider " data-navigation-anchor=".vlt-testimonials-anchor" data-effect="" data-gap="" data-loop="" data-speed="" data-autoplay="" data-autoplay-speed="" data-slides-centered="" data-slide-settings="{}" data-free-mode="" data-slider-offset=""
+                                            data-mousewheel="">
+                                            <div class="swiper-container">
+                                                <div class="swiper-wrapper">
+                                             
+                                                    <div class="swiper-slide">
+                                                    <!--Project-->
+                                                        <div class="vlt-testimonial">
+                                                            <div class="vlt-testimonial__meta">
+                                                                <h5 class="vlt-testimonial__name">Property Appraisal with Machine Learning
+                                                                </h5>
+                                                                <div class="vlt-testimonial__function">pandas, Matplotlib, scikit-learn, Python
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="vlt-testimonial__text">
+                                                                <p>
+                                                                    - Blah<br>
+                                                                    - Blah<br> 
+                                                                    - Blah
+                                                                </p>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="swiper-slide">
+                                                    <!--Project-->
+                                                        <div class="vlt-testimonial">
+                                                            <div class="vlt-testimonial__meta">
+                                                                <h5 class="vlt-testimonial__name">@dailydose.of.python
+                                                                </h5>
+                                                                <div class="vlt-testimonial__function">Python
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="vlt-testimonial__text">
+                                                                <p>
+                                                                    - Blah<br>
+                                                                    - Blah<br> 
+                                                                    - Blah
+                                                                </p>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                   
+                                                    
+                                                    <div class="swiper-slide">
+                                                    <!--Project-->
+                                                        <div class="vlt-testimonial">
+                                                            <div class="vlt-testimonial__meta">
+                                                                <h5 class="vlt-testimonial__name">Property for Rental
+                                                                </h5>
+                                                                <div class="vlt-testimonial__function">TypeScript, Angular, HTML, CSS
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="vlt-testimonial__text">
+                                                                <p>
+                                                                    - Blah<br>
+                                                                    - Blah<br> 
+                                                                    - Blah
+                                                                </p>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
+
+                                                    <div class="swiper-slide">
+                                                        <!--Project-->
+                                                        <div class="vlt-testimonial">
+                                                            <div class="vlt-testimonial__meta">
+                                                                <h5 class="vlt-testimonial__name">Medicine Daily
+                                                                </h5>
+                                                                <div class="vlt-testimonial__function">Java Swing, JSON
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="vlt-testimonial__text">
+                                                                <p>
+                                                                    - Blah<br>
+                                                                    - Blah<br> 
+                                                                    - Blah
+                                                                </p>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="swiper-slide">
+                                                        <!--Project-->
+                                                        <div class="vlt-testimonial">
+                                                            <div class="vlt-testimonial__meta">
+                                                                <h5 class="vlt-testimonial__name">Daily Dose of Weather
+                                                                </h5>
+                                                                <div class="vlt-testimonial__function">Python, requests, smtplib
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="vlt-testimonial__text">
+                                                                <p>
+                                                                    - Blah<br>
+                                                                    - Blah<br> 
+                                                                    - Blah
+                                                                </p>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="swiper-slide">
+                                                        <!--Project-->
+                                                        <div class="vlt-testimonial">
+                                                            <div class="vlt-testimonial__meta">
+                                                                <h5 class="vlt-testimonial__name">Lab Equipment System
+                                                                </h5>
+                                                                <div class="vlt-testimonial__function">Java Swing, JSONsimple
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="vlt-testimonial__text">
+                                                                <p>
+                                                                    - Blah<br>
+                                                                    - Blah<br> 
+                                                                    - Blah
+                                                                </p>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vlt-gap-75"></div>
+
+                                        <!--Slider controls-->
+                                        <div class="vlt-slider-controls vlt-slider-controls--style-1 vlt-testimonials-anchor">
+                                            <div class="vlt-swiper-button-prev"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 45">
+													<defs />
+													<path fill="currentColor" fill-rule="evenodd" d="M1.36413 22.5795L24 43.9524l-.7271.6865L.272896 22.9223l.383716-.3623-.362754-.3367L23.0941.319721l.733.680233L1.36413 22.5795z" clip-rule="evenodd" /></svg></div>
+                                            <div class="vlt-swiper-button-next"><svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 45">
+													<defs />
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M22.6359 22.3728L0 1.00001.727101.313477 23.7271 22.0301l-.3837.3623.3627.3367L.905866 44.6327l-.732997-.6803L22.6359 22.3728z" fill="currentColor" /></svg></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="padded-grid-item">
-                <div class="centered-grid-item"><span class="text-span-15"><u><i>Daily Dose of Weather (Weather SMS Alert system)</i></u></span>
-                    <h6 class="h6-small">Project Navigator and Contributor, 2022</h6>
-                    <div class="text-block-41">As part of the <u><i>Boston Hacks</i></u> competition, my team and I decided to create an alert system program that collects weather forecast information and sends users SMS 
-                        text alerts reminding them suitable wear. We utilised the <u><i>Open Weather API</i></u> to retrieve weather forecast information within the upcoming 72 hours in our program and we made sure that 
-                        the program refreshes every 6 hours so that the user is up-to-date with weather conditions and wears suitable clothes for that weather. We used <u><i>SMTP Protocol Client API</i></u> to create client 
-                        session object that can be used to send users SMS text alerts of the weather and the clothing suggestion. </div>
-                </div>
-            </div>
-            <div class="padded-grid-item border-bottom-white-thick border-sides-white-thick">
-                <div class="centered-grid-item"><span class="text-span-14"><u><i>"Predicting Housing Prices using Publicly Available Datasets and Machine Learning"</i></u></span>
-                    <h6 class="h6-small">Project Navigator and Contributor, 2022</h6>
-                    <div class="text-block-39">Property appraisal is one of the most taxing task, especially in a rapidly changing property market nowadays, because it is a fairly imprecise discipline 
-                        due to reliance on the unique features of the real estate property such as its location, size, property type, and economy growth. Achieving consistency in real estate appraisal 
-                        is difficult; hence why, we wanted to build a solution that is capable of predicting the house prices better and with greater consistency and precision than human appraisers. 
-                        <br><br/>To explore this issue, we built <i>Machine Learning</i> models such as <u>K-Nearest Neighbors</u> and <u>Decision Trees Classifier Models</u> and used our classifier 
-                        models with <u>DataFrames</u> on the given metrics to manipulate and evaluate our data to determine an approximate predicted valuation of a property.<span>‍</span>
+
+            <!--Contact-->
+            <!--Section-->
+            <div class="vlt-section pp-scrollable" data-anchor="Contact">
+                <div class="vlt-section__vertical-align">
+                    <div class="vlt-section__content">
+                        <!--Ken Burn Effect-->
+                        <div class="vlt-section__ken-burn-background"><img src="assets/img/cpu.jpeg" alt=""></div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;">
+                                        <h3>Contact</h3>
+                                        <div class="vlt-gap-30"></div>
+                                        <p>For any further queries regarding my profile, please do not hesitate to reach out to me at the contacts below:</p>
+                                        <div class="vlt-gap-40"></div>
+                                        <p><a class="tel" href="linkedin.com/in/nguyenle04/">LinkedIn: nguyenle04</a></p>
+                                        <p><a class="tel" href="https://github.com/FilipLe">GitHub: FilipLe</a></p>
+                                        <p><a class="tel" href="mailto:nguyenle@bu.edu">nguyenle@bu.edu</a></p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 offset-xl-2">
+                                    <div class="vlt-gap-100--lg"></div>
+                                    <!--Animated Block-->
+                                    <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
+                                        <h4>Investigations and <span class="has-accent-color">Publications.</span></h4>
+                                        <div class="vlt-gap-20"></div>
+                                        <u><a style="color:#FFFFFF" href="https://drive.google.com/file/d/1-T7wBGuxQnpLwVB4h5NxWVkBkWeEx3Tu/view?usp=sharing" target="_blank" class="link-34">Predicting Housing Prices using Publicly Available Datasets and Machine Learning.</a></u>
+                                        <u><br><br><a style="color:#FFFFFF" href="https://drive.google.com/file/d/10QoJ0tZQPHjSMVNHO5fL0USm0yV-298h/view?usp=sharing" target="_blank" class="link-34">To what extent can CPU cache line size be utilized to obtain optimal performance in Java?</a></u>
+                                        <u><br><br><a style="color:#FFFFFF" href="https://drive.google.com/file/d/1lkvcx3qotiElob-1b1n_UdhWj-aNJztt/view?usp=sharing" target="_blank" class="link-34">Does change in the concentration of the sulfuric acid catalyst affect aspirin yield?</a></u>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="padded-grid-item border-bottom-white-thick border-sides-white-thick">
-                <div class="centered-grid-item"><img src="uploads/5ff211b17095aa7b6582b8cb/countries2countries.png" alt="" width = "15%" height = "15%"/>
-                    <h6 class="h6-small">Founder and Project Navigator, 2018</h6>
-                    <div class="text-block-39">As the third generation of Vietnamese origin in Poland, I share a deep fascination about Poland and Vietnam. These two countries are far away from each other, yet somehow, they share some amazing cultural, historical, and even culinary similarities. Currently, I am working on developing an exhibition website using <u><i>HTML, CSS, and JS</i></u> to highlight these similarities to create a cultural experience for both my Vietnamese and Polish communities to explore and build a stronger mutual connection.  
-                        <span>‍</span>
-                    </div>
-                </div>
-            </div>
-            <div class="padded-grid-item border-bottom-white-thick">
-                <div class="centered-grid-item"><img src="uploads/5ff211b17095aa7b6582b8cb/MedicineDaily.png" alt="" width = "10%" height = "10%"/>
-                    <h6 class="h6-small">Creator, 2021 - 2022</h6>
-                    <div class="text-block-40"><u>Medicine Daily</u> is a medicine managing app I made using <u><i>Java and JSON</i></u> for my grandmother, who has been battling many health issues. I wanted to help her spend less time worrying and more time enjoying life. I developed the app to help my grandmother keep track of her medicine intake and inventory. With the success, I want to keep developing the app so that more patients can benefit from it as poor medication adherence is a serious issue. Statistically, every 3 hospital admissions, one is due to failing to administer medicine on time.</div>
-                </div>
-            </div>
-            <div class="padded-grid-item border-sides-white-thick">
-                <div class="centered-grid-item"><span class="text-span-15"><u><i>Lab Equipment Management System</i></u></span>
-                    <h6 class="h6-small rework">Creator, 2020 - 2021</h6>
-                    <div class="text-block-42">My high school’s lab assistant needs to keep track of the science equipment in storage and which teachers have borrowed which equipment. To assist her manage the lab inventory, I programmed a lab equipment management system application using <u><I>Java Swing and JsonSimple</I></u> that could record how many of each item is available at any particular time, change status when equipment is borrowed and returned, and store everything in a record persistently.</div>
-                </div>
-            </div>
+            <!--Progress Bar-->
+            <div class="vlt-fullpage-slider-progress-bar"><span></span></div>
         </div>
-    </div>
-    <div id="ideas" class="section-27 wf-section">
-        <h6 class="subheading text-primary-1 ideas">AWARDS</h6>
-        <div class="w-container">
-            <div class="handwriting text-primary-1 case-study-1 testimonial-1 second-pane">
-                <h2>Awards</h2>
-                <table>
-                <tr>
-                    <td>•&ensp; Boston University Trustee Scholars</td>
-                    <td>Trustee Scholar</td>
-                    <td>2022-2026</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; Inspiring Digital Enterprise Award (iDEA)</td>
-                    <td>Gold Award</td>
-                    <td>2021</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; TBS UNICEF Charity Programming Hackathon</td>
-                    <td>3rd Place</td>
-                    <td>2019</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; Nord Anglia British School Warsaw Computer Science Award</td>
-                    <td>Recognition Award</td>
-                    <td>2019</td>
-                </tr>
-                <tr>
-                    <td>&ensp;</td>
-                    <td>&ensp;</td>
-                    <td>&ensp;</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; International Schools Mathematics Teacher Foundation Junior <br>&ensp; (ISMTF) — Vienna, Austria</td>
-                    <td>9th Place</td>
-                    <td>2020</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; International Kangaroo Math Contest (IKMC)</td>
-                    <td>Distinction Award&ensp;&ensp;&ensp;&ensp;&ensp;</td>
-                    <td>2017, 2018, 2019, 2020</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; International Schools Mathematics Teacher Foundation Middle School &ensp;&ensp;&ensp;&ensp;&ensp;<br>&ensp; (ISMTF) — Bratislava, Slovakia</td>
-                    <td>3rd Place</td>
-                    <td>2017</td>
-                </tr>
-                <tr>
-                    <td>•&ensp; Singapore and Asian Schools Math Olympiad (SASMO)</td>
-                    <td>Bronze Award</td>
-                    <td>2015 and 2016</td>
-                </tr>
-                </table>
-            </div>
-            <br>
-            <h6 class="subheading text-primary-1 twitter">For any further questions regarding my profile, please do not hesitate to reach out to me at <a href="mailto:nguyenle@bu.edu">nguyenle@bu.edu</a>.</h6>
+    </main>
+    <!--Footer-->
+    <footer class="vlt-footer vlt-footer--default vlt-footer--fixed">
+        <div class="vlt-footer-copyright">
+            <p>© Nguyen Le 2023</p>
         </div>
-    </div>
-    <div class="wf-section">
-        <div id="papers" class="container-23 w-container">
-            <div class="text-block-44">Publications: </div>
-            <u><a href="https://drive.google.com/file/d/10QoJ0tZQPHjSMVNHO5fL0USm0yV-298h/view?usp=sharing" target="_blank" class="link-34">To what extent can CPU cache line size be utilized to obtain optimal performance in Java?</a></u>
-            <u><br><a href="https://drive.google.com/file/d/1-T7wBGuxQnpLwVB4h5NxWVkBkWeEx3Tu/view?usp=sharing" target="_blank" class="link-34">Predicting Housing Prices using Publicly Available Datasets and Machine Learning.</a></u>
-            <u><br><a href="https://drive.google.com/file/d/1lkvcx3qotiElob-1b1n_UdhWj-aNJztt/view?usp=sharing" target="_blank" class="link-34">Does change in the concentration of the sulfuric acid catalyst affect aspirin yield?</a></u>
-        </div>
-    </div>
-    <div class="footer bg-primary-3 wf-section">
-        <div class="container footer-consistent">
-            <div class="footer-row">
-                <div class="footer-left">
-                    <ul role="list" class="social-icons-list w-list-unstyled">
-                        <li class="list-item"><a href="" target="_blank" class="button-circle button-small bg-white w-inline-block"><img src="uploads/5ff211b17095aa7b6582b8cb/5ff211b17095aa087382b905_twitter.svg" alt="" class="social-icon"/></a></li>
-                        <li
-                            class="list-item"><a href="https://www.linkedin.com/in/nguyenle04/" target="_blank" class="button-circle button-small bg-white linkedin w-inline-block"><img src="uploads/5ff211b17095aa7b6582b8cb/5ff211b17095aa382582b906_linkedin.svg" alt="" class="social-icon"/></a></li>
-                    </ul>
-                </div>
-                <div class="footer-right">
-                    <ul role="list" class="social-icons-list w-list-unstyled"></ul>
-                </div>
-                <div class="footer-right">
-                    <div class="div-block-3">
-                        <h3 class="medium-heading-2 newsletter bio contact-us">Say hello.</h3><a href="mailto:nguyenle@bu.edu" class="link-14">nguyenle@bu.edu</a>
-                        <ul role="list" class="social-icons-list w-list-unstyled"></ul>
-                    </div>
-                </div>
-            </div>
-            <div class="text-block-22">© Nguyen Le 2023</div>
-        </div>
-    </div>
-    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5ff211b17095aa7b6582b8cb" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="uploads/5ff211b17095aa7b6582b8cb/js/webflow.2fa32c69d.js" type="text/javascript"></script>
-    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+    </footer>
+
+    <!--Libs-->
+    <script src="assets/vendors/jquery-3.5.1.min.js"></script>
+    <script src="assets/scripts/vlt-plugins.min.js"></script>
+    <script src="assets/scripts/vlt-helpers.js"></script>
+    <script src="assets/scripts/vlt-controllers.min.js"></script>
+    <script src="assets/scripts/motion.js"></script>
+
 </body>
 
 </html>
